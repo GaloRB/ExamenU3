@@ -54,7 +54,7 @@ ROOT_URLCONF = 'examenU3.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['examen3/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
